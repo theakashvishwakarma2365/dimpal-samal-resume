@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: 'dimpal-samal', // Replace with your repository name
+  base: '/dimpal-samal/', // Add forward slashes for GitHub Pages
 });
