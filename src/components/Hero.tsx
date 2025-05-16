@@ -6,10 +6,10 @@ const Hero: React.FC = () => {
 
   useEffect(() => {
     if (!typingRef.current) return;
-
+    
     const text = 'Design Automation Engineer';
     let currentIndex = 0;
-
+    
     const type = () => {
       if (!typingRef.current) return;
       
@@ -115,7 +115,7 @@ const Hero: React.FC = () => {
               <div className="absolute inset-4 rounded-full bg-gray-900/80 backdrop-blur-sm border border-purple-500/20"></div>
               <div className="relative z-10 w-full h-full flex items-center justify-center">
                 <img 
-                  src="/dimpal-samal/assets/picofme.png"
+                  src="./public/assets/picofme.png"
                   alt="Dimpal Samal" 
                   className="w-56 h-56 md:w-72 md:h-72 object-cover rounded-full p-1 border border-purple-500/30"
                 />

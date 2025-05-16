@@ -100,10 +100,10 @@ const Projects: React.FC = () => {
           
           {/* Floating Circles */}
           {Array.from({ length: 5 }).map((_, i) => (
-            <div
-              key={i}
+          <div 
+            key={i} 
               className="absolute w-64 h-64 bg-purple-500/10 rounded-full animate-float"
-              style={{
+            style={{ 
                 top: `${Math.random() * 100}%`,
                 left: `${Math.random() * 100}%`,
                 animationDelay: `${i * 0.5}s`,

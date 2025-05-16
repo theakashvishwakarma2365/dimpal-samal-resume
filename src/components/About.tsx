@@ -73,7 +73,7 @@ const About: React.FC = () => {
         <div className="mb-12 animate-fade-in">
           <div className="flex flex-col items-center text-center mb-8">
             <div className="inline-block mb-3 font-mono text-xs text-purple-400 px-3 py-1 border border-purple-500/30 rounded-full">
-              About Me
+            About Me
             </div>
             <h2 className="text-3xl font-bold">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-300">
@@ -96,13 +96,13 @@ const About: React.FC = () => {
             </div>
             <h2 className="text-3xl font-bold">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-300">
-                Professional Overview
-              </span>
-            </h2>
-          </div>
+              Professional Overview
+            </span>
+          </h2>
+        </div>
           <div className="bg-gray-900/40 rounded-xl p-6 border border-purple-500/10 backdrop-blur-sm hover:border-purple-500/20 transition-all duration-300">
             <div className="space-y-4 text-gray-300 text-base leading-relaxed">
-              <p>
+                <p>
                 With around two years of experience in PnR, Synthesis, and IR, I have developed extensive expertise in physical design and ASIC development. During my role as a Physical Design Intern, I successfully handled multiple blocks in 16nm technology node, demonstrating strong capabilities in complex chip design.
               </p>
               <p>
@@ -110,14 +110,14 @@ const About: React.FC = () => {
               </p>
               <p>
                 I possess a comprehensive understanding of Floorplan and placement challenges, particularly for blocks with complex and logic-intensive designs. My experience extends to IR and physical Verification, coupled with strong knowledge in static timing analysis and implementing effective timing fixes for blocks.
-              </p>
-              <p>
+                </p>
+                <p>
                 Additionally, I bring valuable expertise in synthesis, LEC, and Shell scripting, making me well-versed in both the technical and practical aspects of chip design and automation.
-              </p>
+                </p>
+              </div>
             </div>
-          </div>
-        </div>
-
+              </div>
+              
         {/* Technical Skills */}
         <div className="mb-12 animate-fade-in" style={{ animationDelay: '0.4s' }}>
           <div className="flex flex-col items-center text-center mb-8">
@@ -151,9 +151,9 @@ const About: React.FC = () => {
                     >
                       {skill}
                     </span>
-                  ))}
-                </div>
+                ))}
               </div>
+            </div>
             ))}
           </div>
         </div>

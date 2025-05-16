@@ -93,7 +93,7 @@ body {
 
   .hover-glow {
     @apply transition-all duration-300;
-  }
+}
 
   .hover-glow:hover {
     @apply shadow-lg;

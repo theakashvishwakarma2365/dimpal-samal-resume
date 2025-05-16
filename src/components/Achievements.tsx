@@ -1,8 +1,8 @@
 import React from 'react';
 import { Trophy, Award, Star, Medal, Lightbulb, Target } from 'lucide-react';
 
-const achievements = [
-  {
+  const achievements = [
+    {
     title: 'Academic Excellence',
     icon: <Trophy size={20} className="text-purple-400" />,
     items: [
@@ -10,8 +10,8 @@ const achievements = [
       'Secured 85% in Intermediate',
       'Secured 90% in SSC',
     ],
-  },
-  {
+    },
+    {
     title: 'Technical Achievements',
     icon: <Star size={20} className="text-purple-400" />,
     items: [
@@ -45,17 +45,17 @@ const Achievements: React.FC = () => {
         
         {/* Particles */}
         {Array.from({ length: 12 }).map((_, i) => (
-          <div
-            key={i}
+            <div
+              key={i}
             className="absolute w-1 h-1 bg-purple-400/20 rounded-full animate-float"
-            style={{
-              top: `${Math.random() * 100}%`,
-              left: `${Math.random() * 100}%`,
+              style={{
+                top: `${Math.random() * 100}%`,
+                left: `${Math.random() * 100}%`,
               animationDelay: `${Math.random() * 5}s`,
               animationDuration: `${5 + Math.random() * 5}s`
-            }}
+              }}
           />
-        ))}
+          ))}
       </div>
 
       <div className="container mx-auto px-4 relative z-10">

@@ -77,18 +77,18 @@ const Navbar: React.FC = () => {
       >
         <div className="w-full max-w-5xl mx-auto px-4 md:px-8">
           <ul className="py-4 flex flex-col space-y-3">
-            {navItems.map((item) => (
-              <li key={item.name}>
-                <a 
-                  href={item.href}
+          {navItems.map((item) => (
+            <li key={item.name}>
+              <a 
+                href={item.href}
                   className="text-gray-300 hover:text-purple-400 block py-2 border-b border-purple-800/20 transition-colors"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </a>
-              </li>
-            ))}
-          </ul>
+                onClick={() => setIsMenuOpen(false)}
+              >
+                {item.name}
+              </a>
+            </li>
+          ))}
+        </ul>
         </div>
       </div>
     </nav>

@@ -7,5 +7,5 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
-  base: '/dimpal-samal/', // Must match your repository name
+  base: '/dimpal-samal-resume/', // Must match your repository name
 });

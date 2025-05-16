@@ -14,9 +14,9 @@ const experienceData = [
           'Worked on Gatelevel netlist Handoff script development.',
         ],
         skills: ['Innovus', 'Aprisa', 'TCL', 'Python', 'Linux', 'Git'],
-      },
-      {
-        title: 'Physical Design Intern',
+    },
+    {
+      title: 'Physical Design Intern',
         date: 'Jul 2023 – Jun 2024',
         icon: <Layers size={20} className="text-purple-400" />,
         blocks: [

@@ -83,8 +83,8 @@ const Contact: React.FC = () => {
                   >
                     <div className="animate-float" style={{ animationDelay: `${idx * 0.2}s` }}>
                       {info.icon}
-                    </div>
-                    <div>
+              </div>
+              <div>
                       <div className="text-sm text-gray-400 mb-1">{info.label}</div>
                       {info.href ? (
                         <a
@@ -101,7 +101,7 @@ const Contact: React.FC = () => {
                 ))}
               </div>
             </div>
-          </div>
+            </div>
         </div>
       </div>
     </section>
